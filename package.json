@@ -13,12 +13,10 @@
   "author": "Sanity <hello@sanity.io>",
   "type": "module",
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/bar.js",
-      "svelte": "./dist/index.js"
-    }
+    "./package.json": "./dist/package.json",
+    ".": "./dist/index.js"
   },
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
